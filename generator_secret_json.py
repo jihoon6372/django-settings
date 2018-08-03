@@ -7,6 +7,7 @@ secret['DB_HOST'] = ''
 secret['DB_USER'] = ''
 secret['DB_DATABASE'] = ''
 secret['DB_PASSWORD'] = ''
+secret['ALLOWED_HOSTS'] = ['localhost', '127.0.0.1']
 
 secret = json.dumps(secret)
 
